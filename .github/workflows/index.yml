@@ -1,0 +1,51 @@
+apiVersion: v1
+entries:
+  ubuntu:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-05-22T09:43:12.078676199Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-datascience
+      version: 2.1.0
+    description: Ubuntu with a graphical user interface.
+    digest: 937e5184e59a4fe6af00cd141ba3d25b79c45aec663516532479bcdda107861e
+    home: https://www.ubuntu-fr.org/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/ubuntu.png
+    keywords:
+    - Linux
+    - Tool
+    name: ubuntu
+    sources:
+    - https://github.com/InseeFrLab/ubuntu-vnc
+    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/ubuntu
+    type: application
+    urls:
+    - https://walidgu.github.io/onyxia-test/packages/ubuntu-5.4.4.tgz
+    version: 5.4.4
+  vscode:
+  - apiVersion: v2
+    appVersion: 2.6.0
+    created: "2023-05-22T09:43:12.079907355Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-datascience
+      version: 2.1.0
+    description: Visual Studio Code is a lightweight yet powerful source code editor
+      with a rich ecosystem of extensions for many languages.
+    digest: faf4a4f03e2050dd0ed6032c529a8defbba544979a9384e4f411d20beb8d0e56
+    home: https://code.visualstudio.com/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
+    keywords:
+    - IDE
+    - Python
+    name: vscode
+    sources:
+    - https://github.com/InseeFrLab/vscode
+    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/vscode
+    - https://github.com/cdr/code-server
+    type: application
+    urls:
+    - https://walidgu.github.io/onyxia-test/packages/vscode-6.9.0.tgz
+    version: 6.9.0
+generated: "2023-05-22T09:43:12.0771564Z"
