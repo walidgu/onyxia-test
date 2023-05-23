@@ -3,7 +3,7 @@
 service:
   image:
     version: "wguemil/wavestonyxia-dev:image-devops-v1"
-    pullPolicy: IfNotPresent
+    pullPolicy: Always
     custom:
       enabled: false
       version: "wguemil/wavestonyxia-dev:image-devops-v1"
