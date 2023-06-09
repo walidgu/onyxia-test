@@ -3,13 +3,13 @@ entries:
   ubuntu:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-05-23T16:18:49.005756943Z"
+    created: "2023-06-09T13:39:06.932178842Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
       version: 2.1.0
     description: Ubuntu with a graphical user interface.
-    digest: d6ef13ea538ba9cb5eca51b788267e926843c843587f2874a188bdf84f4ae2b7
+    digest: 2f9d179eefa06ee1954f47a6aa2126329dfd65366edf45bb41f24ebb4dc425d3
     home: https://www.ubuntu-fr.org/
     icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/ubuntu.png
     keywords:
@@ -23,17 +23,40 @@ entries:
     urls:
     - https://walidgu.github.io/onyxia-test/ubuntu-5.4.4.tgz
     version: 5.4.4
+  ubuntu-mate:
+  - apiVersion: v2
+    appVersion: 2.6.0
+    created: "2023-06-09T13:39:06.934193056Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-datascience
+      version: 2.1.0
+    description: Ubuntu Mate
+    digest: e03259da8b9f87330ea6d2b92f8e8a619c1f89ab47b393a15241609fd8fcb045
+    home: https://code.visualstudio.com/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
+    keywords:
+    - ubuntu
+    name: ubuntu-mate
+    sources:
+    - https://github.com/InseeFrLab/vscode
+    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/vscode
+    - https://github.com/cdr/code-server
+    type: application
+    urls:
+    - https://walidgu.github.io/onyxia-test/ubuntu-mate-6.9.0.tgz
+    version: 6.9.0
   vscode:
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2023-05-23T16:18:49.007116791Z"
+    created: "2023-06-09T13:39:06.936470106Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
       version: 2.1.0
     description: Visual Studio Code is a lightweight yet powerful source code editor
       with a rich ecosystem of extensions for many languages.
-    digest: 1dbe131625ca042e04f9b0d77337928f9286342221357f9402092205bda96efd
+    digest: d00c0642766dbeb75ec5ae0182df5377447974755a48d320f2470a53614704ff
     home: https://code.visualstudio.com/
     icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
     keywords:
@@ -48,4 +71,4 @@ entries:
     urls:
     - https://walidgu.github.io/onyxia-test/vscode-6.9.0.tgz
     version: 6.9.0
-generated: "2023-05-23T16:18:49.004199268Z"
+generated: "2023-06-09T13:39:06.930548289Z"
