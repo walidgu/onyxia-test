@@ -1,15 +1,42 @@
 apiVersion: v1
 entries:
+  jupyter:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-06-14T14:09:29.123279605Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-datascience
+      version: 2.1.0
+    description: Jupyter is a notebook accessible through a web browser. You can use
+      it for Python and Spark.
+    digest: 785a406020b8d464e07289d5f53a6a5bf06f77a952e66b6fbbb20e8628d030a0
+    home: https://jupyter.org/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/jupyter.png
+    keywords:
+    - Hadoop
+    - Spark
+    - Python
+    - Jupyter
+    name: jupyter
+    sources:
+    - https://github.com/InseeFrLab/jupyter-datascience
+    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/jupyter
+    - https://github.com/jupyter/docker-stacks
+    type: application
+    urls:
+    - https://walidgu.github.io/onyxia-test/jupyter-6.4.3.tgz
+    version: 6.4.3
   ubuntu:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-06-09T13:39:06.932178842Z"
+    created: "2023-06-14T14:09:29.124545374Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
       version: 2.1.0
     description: Ubuntu with a graphical user interface.
-    digest: 2f9d179eefa06ee1954f47a6aa2126329dfd65366edf45bb41f24ebb4dc425d3
+    digest: 8da84f850bcc6dd76de4ae524268b82df17cd1206cd30b9145a0432204c9e49e
     home: https://www.ubuntu-fr.org/
     icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/ubuntu.png
     keywords:
@@ -23,16 +50,39 @@ entries:
     urls:
     - https://walidgu.github.io/onyxia-test/ubuntu-5.4.4.tgz
     version: 5.4.4
+  ubuntu-insee:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-06-14T14:09:29.12587013Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-datascience
+      version: 2.1.0
+    description: Ubuntu with a graphical user interface.
+    digest: 1fc5c49ceb5465fba24a83705d8044afd43acc206c7c335ac8709f016762963b
+    home: https://www.ubuntu-fr.org/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/ubuntu.png
+    keywords:
+    - Linux
+    - Tool
+    name: ubuntu-insee
+    sources:
+    - https://github.com/InseeFrLab/ubuntu-vnc
+    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/ubuntu
+    type: application
+    urls:
+    - https://walidgu.github.io/onyxia-test/ubuntu-insee-5.4.4.tgz
+    version: 5.4.4
   ubuntu-mate:
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2023-06-09T13:39:06.934193056Z"
+    created: "2023-06-14T14:09:29.127110361Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
       version: 2.1.0
     description: Ubuntu Mate
-    digest: e03259da8b9f87330ea6d2b92f8e8a619c1f89ab47b393a15241609fd8fcb045
+    digest: ee54c1160d5a7eafde3af6afc2576f0a684d2064b8b835db6dd78ecca4310dbf
     home: https://code.visualstudio.com/
     icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
     keywords:
@@ -49,14 +99,14 @@ entries:
   vscode:
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2023-06-09T13:39:06.936470106Z"
+    created: "2023-06-14T14:09:29.128417578Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
       version: 2.1.0
     description: Visual Studio Code is a lightweight yet powerful source code editor
       with a rich ecosystem of extensions for many languages.
-    digest: d00c0642766dbeb75ec5ae0182df5377447974755a48d320f2470a53614704ff
+    digest: 229e77df37c6d15be81e45cb6576f8d0fa2d754d8d7ec5407d08565f7ad4a73a
     home: https://code.visualstudio.com/
     icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
     keywords:
@@ -71,4 +121,4 @@ entries:
     urls:
     - https://walidgu.github.io/onyxia-test/vscode-6.9.0.tgz
     version: 6.9.0
-generated: "2023-06-09T13:39:06.930548289Z"
+generated: "2023-06-14T14:09:29.121384032Z"
