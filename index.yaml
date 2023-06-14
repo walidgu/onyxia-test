@@ -3,14 +3,14 @@ entries:
   jupyter:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-06-14T14:09:29.123279605Z"
+    created: "2023-06-14T15:15:58.039289085Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
       version: 2.1.0
     description: Jupyter is a notebook accessible through a web browser. You can use
       it for Python and Spark.
-    digest: 785a406020b8d464e07289d5f53a6a5bf06f77a952e66b6fbbb20e8628d030a0
+    digest: 752d5875f82e2916a7a3b0df5878f286230f15fae968a06333e431078b401391
     home: https://jupyter.org/
     icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/jupyter.png
     keywords:
@@ -30,13 +30,13 @@ entries:
   ubuntu:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-06-14T14:09:29.124545374Z"
+    created: "2023-06-14T15:15:58.040553214Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
       version: 2.1.0
     description: Ubuntu with a graphical user interface.
-    digest: 8da84f850bcc6dd76de4ae524268b82df17cd1206cd30b9145a0432204c9e49e
+    digest: a815a78fd05cd6bae57d67df0ae1f9de4fcded2afbd80dd29923ba98ce21f1f9
     home: https://www.ubuntu-fr.org/
     icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/ubuntu.png
     keywords:
@@ -53,13 +53,13 @@ entries:
   ubuntu-insee:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-06-14T14:09:29.12587013Z"
+    created: "2023-06-14T15:15:58.041818727Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
       version: 2.1.0
     description: Ubuntu with a graphical user interface.
-    digest: 1fc5c49ceb5465fba24a83705d8044afd43acc206c7c335ac8709f016762963b
+    digest: 4168a979d902258ae409c6f2c9aef4901aa72287d326b2530b21fe23cea78d41
     home: https://www.ubuntu-fr.org/
     icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/ubuntu.png
     keywords:
@@ -76,13 +76,13 @@ entries:
   ubuntu-mate:
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2023-06-14T14:09:29.127110361Z"
+    created: "2023-06-14T15:15:58.043102044Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
       version: 2.1.0
     description: Ubuntu Mate
-    digest: ee54c1160d5a7eafde3af6afc2576f0a684d2064b8b835db6dd78ecca4310dbf
+    digest: 10115daa440e6c872a863bce6d5cfabf1462890cbf768023fe820c56d3b806ad
     home: https://code.visualstudio.com/
     icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
     keywords:
@@ -99,14 +99,14 @@ entries:
   vscode:
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2023-06-14T14:09:29.128417578Z"
+    created: "2023-06-14T15:15:58.044419297Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
       version: 2.1.0
     description: Visual Studio Code is a lightweight yet powerful source code editor
       with a rich ecosystem of extensions for many languages.
-    digest: 229e77df37c6d15be81e45cb6576f8d0fa2d754d8d7ec5407d08565f7ad4a73a
+    digest: ba2b918e00e9df590ac02939f65a085a83bc8399dd2ad39cf7c9db3e0a81cb84
     home: https://code.visualstudio.com/
     icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
     keywords:
@@ -121,4 +121,4 @@ entries:
     urls:
     - https://walidgu.github.io/onyxia-test/vscode-6.9.0.tgz
     version: 6.9.0
-generated: "2023-06-14T14:09:29.121384032Z"
+generated: "2023-06-14T15:15:58.03735Z"
