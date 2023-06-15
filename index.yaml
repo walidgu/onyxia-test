@@ -1,42 +1,15 @@
 apiVersion: v1
 entries:
-  jupyter:
-  - apiVersion: v2
-    appVersion: latest
-    created: "2023-06-14T15:15:58.039289085Z"
-    dependencies:
-    - name: library-chart
-      repository: https://inseefrlab.github.io/helm-charts-datascience
-      version: 2.1.0
-    description: Jupyter is a notebook accessible through a web browser. You can use
-      it for Python and Spark.
-    digest: 752d5875f82e2916a7a3b0df5878f286230f15fae968a06333e431078b401391
-    home: https://jupyter.org/
-    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/jupyter.png
-    keywords:
-    - Hadoop
-    - Spark
-    - Python
-    - Jupyter
-    name: jupyter
-    sources:
-    - https://github.com/InseeFrLab/jupyter-datascience
-    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/jupyter
-    - https://github.com/jupyter/docker-stacks
-    type: application
-    urls:
-    - https://walidgu.github.io/onyxia-test/jupyter-6.4.3.tgz
-    version: 6.4.3
   ubuntu:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-06-14T15:15:58.040553214Z"
+    created: "2023-06-15T12:39:18.268848464Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
       version: 2.1.0
     description: Ubuntu with a graphical user interface.
-    digest: a815a78fd05cd6bae57d67df0ae1f9de4fcded2afbd80dd29923ba98ce21f1f9
+    digest: 55387d8ab4a30bbe3f8312ebfa916abf374f328d07eb4fb6ffdcf75d9683a105
     home: https://www.ubuntu-fr.org/
     icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/ubuntu.png
     keywords:
@@ -50,39 +23,16 @@ entries:
     urls:
     - https://walidgu.github.io/onyxia-test/ubuntu-5.4.4.tgz
     version: 5.4.4
-  ubuntu-insee:
-  - apiVersion: v2
-    appVersion: latest
-    created: "2023-06-14T15:15:58.041818727Z"
-    dependencies:
-    - name: library-chart
-      repository: https://inseefrlab.github.io/helm-charts-datascience
-      version: 2.1.0
-    description: Ubuntu with a graphical user interface.
-    digest: 4168a979d902258ae409c6f2c9aef4901aa72287d326b2530b21fe23cea78d41
-    home: https://www.ubuntu-fr.org/
-    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/ubuntu.png
-    keywords:
-    - Linux
-    - Tool
-    name: ubuntu-insee
-    sources:
-    - https://github.com/InseeFrLab/ubuntu-vnc
-    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/ubuntu
-    type: application
-    urls:
-    - https://walidgu.github.io/onyxia-test/ubuntu-insee-5.4.4.tgz
-    version: 5.4.4
   ubuntu-mate:
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2023-06-14T15:15:58.043102044Z"
+    created: "2023-06-15T12:39:18.270235026Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
       version: 2.1.0
     description: Ubuntu Mate
-    digest: 10115daa440e6c872a863bce6d5cfabf1462890cbf768023fe820c56d3b806ad
+    digest: c5fb340f7b0244b749485b8df32e236fdf81bc94e8c951706fadd393f3425df3
     home: https://code.visualstudio.com/
     icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
     keywords:
@@ -96,29 +46,4 @@ entries:
     urls:
     - https://walidgu.github.io/onyxia-test/ubuntu-mate-6.9.0.tgz
     version: 6.9.0
-  vscode:
-  - apiVersion: v2
-    appVersion: 2.6.0
-    created: "2023-06-14T15:15:58.044419297Z"
-    dependencies:
-    - name: library-chart
-      repository: https://inseefrlab.github.io/helm-charts-datascience
-      version: 2.1.0
-    description: Visual Studio Code is a lightweight yet powerful source code editor
-      with a rich ecosystem of extensions for many languages.
-    digest: ba2b918e00e9df590ac02939f65a085a83bc8399dd2ad39cf7c9db3e0a81cb84
-    home: https://code.visualstudio.com/
-    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
-    keywords:
-    - IDE
-    - Python
-    name: vscode
-    sources:
-    - https://github.com/InseeFrLab/vscode
-    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/vscode
-    - https://github.com/cdr/code-server
-    type: application
-    urls:
-    - https://walidgu.github.io/onyxia-test/vscode-6.9.0.tgz
-    version: 6.9.0
-generated: "2023-06-14T15:15:58.03735Z"
+generated: "2023-06-15T12:39:18.267236203Z"
