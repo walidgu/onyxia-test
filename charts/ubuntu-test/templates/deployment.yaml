@@ -50,7 +50,7 @@ spec:
           image: "{{ .Values.service.image.version }}"
           {{- end }} 
           command: ["/bin/sh","-c"]
-          args: ["{{ .Values.init.standardInitPath }} /etc/s6-overlay/s6-rc.d/init-adduser/run"]
+          args: ["{{ .Values.init.standardInitPath }}"]
           imagePullPolicy: {{ .Values.service.image.pullPolicy }}
           env:
             - name: SHELL
