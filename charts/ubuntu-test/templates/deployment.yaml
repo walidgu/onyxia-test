@@ -50,7 +50,7 @@ spec:
           image: "{{ .Values.service.image.version }}"
           {{- end }} 
           command: ["/bin/sh"]
-          args: [""]
+          args: ["/data/{{ .Values.init.filename}}"]
           imagePullPolicy: {{ .Values.service.image.pullPolicy }}
           env:
             - name: SHELL
