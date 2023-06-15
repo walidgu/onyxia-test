@@ -3,13 +3,13 @@ entries:
   ubuntu:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-06-15T13:33:14.545460823Z"
+    created: "2023-06-15T13:47:45.834732993Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
       version: 2.1.0
     description: Ubuntu with a graphical user interface.
-    digest: 4aecf3e61162299c89dda20a9a19ef33fd1a0477c0c205ff07e07ebd86cd9d91
+    digest: 5b234aae489c111346cffe57ee30a876f3dfa5fbfa2abc6e1c3b0f9dbcc06467
     home: https://www.ubuntu-fr.org/
     icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/ubuntu.png
     keywords:
@@ -26,13 +26,13 @@ entries:
   ubuntu-mate:
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2023-06-15T13:33:14.546703373Z"
+    created: "2023-06-15T13:47:45.835980651Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
       version: 2.1.0
     description: Plateforme Linux Ubuntu Mate
-    digest: 581fb878146c2d735a96acbbeac4103272085c63ff4eeab9fa1c8c654d8b1b54
+    digest: 3dd32b621637a0d60bff50248a0b273401c26fb0730af2be5c5dc9fb530e1db2
     home: https://code.visualstudio.com/
     icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/ubuntu.png
     keywords:
@@ -46,4 +46,4 @@ entries:
     urls:
     - https://walidgu.github.io/onyxia-test/ubuntu-mate-6.9.0.tgz
     version: 6.9.0
-generated: "2023-06-15T13:33:14.543966055Z"
+generated: "2023-06-15T13:47:45.833234144Z"
