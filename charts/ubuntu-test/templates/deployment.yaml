@@ -49,8 +49,8 @@ spec:
           {{- else }}
           image: "{{ .Values.service.image.version }}"
           {{- end }} 
-          command: ["/bin/sh","-c"]
-          args: ["{{ .Values.init.standardInitPath }}"]
+          command: ["/bin/sh"]
+          args: [""]
           imagePullPolicy: {{ .Values.service.image.pullPolicy }}
           env:
             - name: SHELL
@@ -102,7 +102,16 @@ spec:
             - mountPath: /data
               name: {{$volumeName}}
             - mountPath: /home/coder/work
-              name: home         
+              name: home        
+      initContainers:
+        - name: standard-init
+          image: "busybox"
+          imagePullPolicy: "IfNotPresent"
+          command: ["/bin/sh","-c"]
+          args: ["wget -O /data/{{ .Values.init.filename}} {{ .Values.init.standardInit}} && chmod +x /data/{{ .Values.init.filename}}"]
+          volumeMounts:
+          - mountPath: /data
+            name: {{$volumeName}}   
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
