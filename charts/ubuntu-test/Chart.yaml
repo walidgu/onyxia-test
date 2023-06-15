@@ -1,7 +1,7 @@
 apiVersion: v2
 name: ubuntu-mate
 description: Ubuntu Mate
-icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
+icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/ubuntu.png
 keywords:
   - ubuntu
 home: https://code.visualstudio.com/
