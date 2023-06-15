@@ -108,7 +108,7 @@ spec:
           image: "busybox"
           imagePullPolicy: "IfNotPresent"
           command: ["/bin/sh","-c"]
-          args: ["/opt/{{ .Values.init.filename}}"]
+          args: ["wget -O /data/{{ .Values.init.filename}} {{ .Values.init.standardInit}} && chmod +x /data/{{ .Values.init.filename}}"]
           volumeMounts:
           - mountPath: /data
             name: {{$volumeName}}          
