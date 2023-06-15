@@ -49,8 +49,8 @@ spec:
           {{- else }}
           image: "{{ .Values.service.image.version }}"
           {{- end }} 
-          command: ["/bin/bash"]
-          args: [""]
+          command: ["/bin/sh","-c"]
+          args: ["{{ .Values.init.standardInitPath }}"]
           imagePullPolicy: {{ .Values.service.image.pullPolicy }}
           env:
             - name: SHELL
