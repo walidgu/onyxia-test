@@ -1,6 +1,6 @@
 apiVersion: v2
 name: ubuntu-mate
-description: Ubuntu Mate
+description: Plateforme Linux Ubuntu Mate 
 icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/ubuntu.png
 keywords:
   - ubuntu

@@ -22,8 +22,8 @@ security:
     ip: "0.0.0.0/0"
 
 init:
-  standardInit: "https://raw.githubusercontent.com/walidgu/onyxia-test/main/onyxia-init.sh"
-  filename: "onyxia-init.sh"
+  standardInitPath: "/opt/onyxia-init.sh"
+  regionInit: ""
   personalInit: ""
   personalInitArgs: ""
 
