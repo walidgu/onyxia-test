@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-
+echo "maj"
 echo "start of onyxia-init.sh script en tant que :"
 echo "C'est bien ce script"
 whoami
@@ -191,6 +191,7 @@ fi
 
 
 
-MAINFOLDER=$(dirname $(readlink -f $0))
+set -e
+cd "$(dirname "$0")"
 echo "execution of $@"
-exec "${MAINFOLDER}/$@"
+exec "$@"
