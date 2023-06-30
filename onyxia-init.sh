@@ -191,6 +191,6 @@ fi
 
 
 
-
+MAINFOLDER=$(dirname $(readlink -f $0))
 echo "execution of $@"
-exec "$@"
+exec "${MAINFOLDER}/$@"
