@@ -3,7 +3,7 @@ entries:
   jupyter:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-06-30T09:21:57.864414336Z"
+    created: "2023-08-02T08:40:48.658384549Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
@@ -30,7 +30,7 @@ entries:
   ubuntu:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-06-30T09:21:57.865649124Z"
+    created: "2023-08-02T08:40:48.65963107Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
@@ -53,7 +53,7 @@ entries:
   ubuntu-mate:
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2023-06-30T09:21:57.866822576Z"
+    created: "2023-08-02T08:40:48.660782217Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
@@ -76,7 +76,7 @@ entries:
   vscode:
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2023-06-30T09:21:57.868023898Z"
+    created: "2023-08-02T08:40:48.661960284Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
@@ -98,4 +98,28 @@ entries:
     urls:
     - https://walidgu.github.io/onyxia-test/vscode-6.9.0.tgz
     version: 6.9.0
-generated: "2023-06-30T09:21:57.862690167Z"
+  vscode-demo:
+  - apiVersion: v2
+    appVersion: 2.6.0
+    created: "2023-08-02T08:40:48.663149688Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-datascience
+      version: 2.1.0
+    description: DEMO
+    digest: 309a891708414ea17b3631ab88d7e7713877385a89c553229de9db4ec0273c47
+    home: https://code.visualstudio.com/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
+    keywords:
+    - IDE
+    - Python
+    name: vscode-demo
+    sources:
+    - https://github.com/InseeFrLab/vscode
+    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/vscode
+    - https://github.com/cdr/code-server
+    type: application
+    urls:
+    - https://walidgu.github.io/onyxia-test/vscode-demo-6.9.0.tgz
+    version: 6.9.0
+generated: "2023-08-02T08:40:48.656371672Z"
