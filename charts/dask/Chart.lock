@@ -1,0 +1,9 @@
+dependencies:
+- name: dask
+  repository: https://helm.dask.org/
+  version: 2022.6.0
+- name: library-chart
+  repository: https://inseefrlab.github.io/helm-charts-datascience
+  version: 2.0.20
+digest: sha256:1943edc244656da4adaefee3fdbd3024111591c4ea6ffd53f8dd7536511868ed
+generated: "2023-08-04T11:27:09.206103282Z"

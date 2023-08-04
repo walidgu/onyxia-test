@@ -1,0 +1,12 @@
+dependencies:
+- name: elasticsearch
+  repository: https://helm.elastic.co
+  version: 7.17.3
+- name: kibana
+  repository: https://helm.elastic.co
+  version: 7.17.3
+- name: library-chart
+  repository: https://inseefrlab.github.io/helm-charts-datascience
+  version: 2.0.20
+digest: sha256:03a413758dd9cc59d75298ebcea712cc5a604f7031420af97460bb6a74bb7b56
+generated: "2023-08-04T11:29:35.687387184Z"
